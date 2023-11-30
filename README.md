@@ -11,7 +11,9 @@ The simple test method for this code is as follows:
 
 After selecting the text, you should see a tooltip saying "copied" appear and then disappear near the mouse cursor.
 
+
 [Korean]
+
 문자열을 사용자가 선택하면 자동으로 클립보드에 복사하는 간단한 코드 입니다. 
 
 간단한 테스트 방법은 아래와 같습니다.
