@@ -26,6 +26,7 @@ var TextCopy = {
 	addMouseup: function(){
 		document.addEventListener('mouseup', function(e) {
 			const st = window.getSelection().toString();
+			if(st.length == 0) return;
 			TextCopy.writeTextInClipboard(st);
 			TextCopy.showTooltip(e.pageX, e.pageY);
 		});
